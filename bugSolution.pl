@@ -1,0 +1,1 @@
+my %hash = ('a', 1, 'b', 2); foreach my $key (sort keys %hash) {  my $value = $hash{$key};  print "$key => $value\n"; }
