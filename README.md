@@ -1,0 +1,3 @@
+This repository demonstrates a common, yet subtle, bug in Perl related to hash iteration using the `each` function. Perl's `each` function does not guarantee a specific iteration order; the order can vary across different Perl versions or even runs of the same script. This lack of consistent ordering can lead to unexpected program behavior, especially when the order of hash elements is critical.
+
+The `bug.pl` file shows a simple example of hash iteration using `each`, highlighting the potential issue. The `bugSolution.pl` file provides a solution using `keys` and a loop to achieve predictable order if necessary.
